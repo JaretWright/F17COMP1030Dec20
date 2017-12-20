@@ -21,7 +21,7 @@ public class CustomWriter {
                 System.out.print("Please enter some text (type exit to quit): ");
                 userInput = keyboard.nextLine();
                 
-                if (userInput.equalsIgnoreCase("quit"))
+                if (userInput.equalsIgnoreCase("exit"))
                     keepAsking=false;
                 else
                     outputStream.format(userInput + "%n");
