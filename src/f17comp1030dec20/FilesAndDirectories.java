@@ -17,6 +17,10 @@ public class FilesAndDirectories {
         analyzeFile(fileName);
     }
     
+    /**
+     * This is a javdoc comment
+     * @param path 
+     */
     public static void analyzeFile(String path)
     {
         File file = new File(path);
